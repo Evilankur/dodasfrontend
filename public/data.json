@@ -1,0 +1,916 @@
+{
+    "status": true,
+    "message": "operation successfull",
+    "result": {
+        "took": 10,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": {
+                "value": 99,
+                "relation": "eq"
+            },
+            "max_score": null,
+            "hits": [
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f70a",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "14",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://ipfs.io/ipfs/QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/14.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0014\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"ipfs://QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/14.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Angel\"},{\"trait_type\":\"Material\",\"value\":\"Red Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Magenta\"},{\"trait_type\":\"Sky Element\",\"value\":\"Moon\"},{\"trait_type\":\"Air Element #1\",\"value\":\"The Three Dragons\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Cactus\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]}",
+                        "owner": "0x529109d3e06f2acfc520f27042274e8dcd44eddd",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Angel\"},{\"trait_type\":\"Material\",\"value\":\"Red Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Magenta\"},{\"trait_type\":\"Sky Element\",\"value\":\"Moon\"},{\"trait_type\":\"Air Element #1\",\"value\":\"The Three Dragons\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Cactus\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f70a",
+                        "tokenURI": "ipfs://QmWT9wHTNPGX99YtVhbRLWVZYR3wjw9VaSLQoRio9gKvfR/14.json",
+                        "token_name": "Galaxy Egg #0014",
+                        "transactionURI": "",
+                        "updated_on": 1673959820591,
+                        "id": "63c69979cd7a32c67d88f70a",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f706",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "10",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/10.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0010\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/10.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Horse\"}],\"ipfs_image\":\"ipfs://QmWc9i7vN4V9rTxfStEHuh8NgELztBtKVkMRyNsW75PiPM/10.jpg\"}",
+                        "owner": "0xef3f586758184e215cadce4210d7cbc76ebed1c0",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Horse\"}]",
+                        "record_id": "63c69979cd7a32c67d88f706",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/10.json",
+                        "token_name": "Galaxy Egg #0010",
+                        "transactionURI": "",
+                        "updated_on": 1673959814495,
+                        "id": "63c69979cd7a32c67d88f706",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f707",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "11",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/11.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0011\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/11.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Firebird\"},{\"trait_type\":\"Material\",\"value\":\"Psychedelia Orange Purple Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Cyan Gloss\"},{\"trait_type\":\"Sky\",\"value\":\"Infinity Loops\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Steam City\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Textured Cactus\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]}",
+                        "owner": "0x6b09e0dab9f4d4f3d0d0ad0bed188c07de0006c1",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Firebird\"},{\"trait_type\":\"Material\",\"value\":\"Psychedelia Orange Purple Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Cyan Gloss\"},{\"trait_type\":\"Sky\",\"value\":\"Infinity Loops\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Steam City\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Textured Cactus\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f707",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/11.json",
+                        "token_name": "Galaxy Egg #0011",
+                        "transactionURI": "",
+                        "updated_on": 1673959815353,
+                        "id": "63c69979cd7a32c67d88f707",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f708",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "12",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://ipfs.io/ipfs/QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/12.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x611eff619f1ad3e359823b661edaf224452eec14",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Wonderland\"},{\"trait_type\":\"Material\",\"value\":\"Psychedelia Warm\"},{\"trait_type\":\"Studio Material\",\"value\":\"Pink Purple\"},{\"trait_type\":\"Sky Element\",\"value\":\"Moon\"},{\"trait_type\":\"Air Element #1\",\"value\":\"Dragons Family\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Steam City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Rocks\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f708",
+                        "tokenURI": "ipfs://QmWT9wHTNPGX99YtVhbRLWVZYR3wjw9VaSLQoRio9gKvfR/12.json",
+                        "token_name": "Galaxy Egg #0012",
+                        "transactionURI": "",
+                        "updated_on": 1673959817850,
+                        "id": "63c69979cd7a32c67d88f708",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f709",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "13",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/13.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x611eff619f1ad3e359823b661edaf224452eec14",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Alien Bitcoin\"}]",
+                        "record_id": "63c69979cd7a32c67d88f709",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/13.json",
+                        "token_name": "Galaxy Egg #0013",
+                        "transactionURI": "",
+                        "updated_on": 1673959819666,
+                        "id": "63c69979cd7a32c67d88f709",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f70b",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "15",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/15.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0xdf345e11427c8f97517515956e080fe4a6d7ab9c",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Alien Ethereum\"},{\"trait_type\":\"Material\",\"value\":\"Psychedelia Purple Red\"},{\"trait_type\":\"Studio Material\",\"value\":\"Psychedelia Purple Red\"},{\"value\":\"Birds\"},{\"trait_type\":\"Air Element\",\"value\":\"Jellyfish\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Cyber City\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Textured Shrooms\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f70b",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/15.json",
+                        "token_name": "Galaxy Egg #0015",
+                        "transactionURI": "",
+                        "updated_on": 1673959822367,
+                        "id": "63c69979cd7a32c67d88f70b",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f70c",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "16",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/16.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x7d81ebcc3234125c1ebd5ceb82b1ba53c3a26887",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Teapot\"}]",
+                        "record_id": "63c69979cd7a32c67d88f70c",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/16.json",
+                        "token_name": "Galaxy Egg #0016",
+                        "transactionURI": "",
+                        "updated_on": 1673959822974,
+                        "id": "63c69979cd7a32c67d88f70c",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f713",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "23",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/23.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x68f1c1b915ec238cec8851cf5c38b98b74560121",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Biker\"},{\"trait_type\":\"Material\",\"value\":\"Gold\"},{\"trait_type\":\"Studio Material\",\"value\":\"Purple Matte\"},{\"value\":\"Birds\"},{\"trait_type\":\"Air Element\",\"value\":\"Air Balloons\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Palm Trees\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f713",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/23.json",
+                        "token_name": "Galaxy Egg #0023",
+                        "transactionURI": "",
+                        "updated_on": 1673959823382,
+                        "id": "63c69979cd7a32c67d88f713",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f70d",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "17",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/17.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0017\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/17.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Dead King\"}],\"ipfs_image\":\"ipfs://QmWc9i7vN4V9rTxfStEHuh8NgELztBtKVkMRyNsW75PiPM/17.jpg\"}",
+                        "owner": "0xcf94178cacf88ebf73dd22d01baefc7312e2a0e5",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Dead King\"}]",
+                        "record_id": "63c69979cd7a32c67d88f70d",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/17.json",
+                        "token_name": "Galaxy Egg #0017",
+                        "transactionURI": "",
+                        "updated_on": 1673959823751,
+                        "id": "63c69979cd7a32c67d88f70d"
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f714",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "24",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://ipfs.io/ipfs/QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/24.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x1e8220799ada6f258107c1c6a24a1092aa039bd4",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Cupid And Psyche\"},{\"trait_type\":\"Material\",\"value\":\"Off White\"},{\"trait_type\":\"Studio Material\",\"value\":\"Psychedelia Orange Purple Gloss\"},{\"trait_type\":\"Sky Element\",\"value\":\"Galaxy\"},{\"trait_type\":\"Air Element #1\",\"value\":\"Small Spheres\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Steam City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Surrounding City\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f714",
+                        "tokenURI": "ipfs://QmWT9wHTNPGX99YtVhbRLWVZYR3wjw9VaSLQoRio9gKvfR/24.json",
+                        "token_name": "Galaxy Egg #0024",
+                        "transactionURI": "",
+                        "updated_on": 1673959825060,
+                        "id": "63c69979cd7a32c67d88f714",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f715",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "25",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/25.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x0b378cae63d54c753e8619a90c81aeb9decf652f",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Moonlady\"}]",
+                        "record_id": "63c69979cd7a32c67d88f715",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/25.json",
+                        "token_name": "Galaxy Egg #0025",
+                        "transactionURI": "",
+                        "updated_on": 1673959826307,
+                        "id": "63c69979cd7a32c67d88f715",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f716",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "26",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/26.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x64d177c10eff0d130ad19bde124aee0698f83927",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"The Mechanic\"},{\"trait_type\":\"Material\",\"value\":\"Off White\"},{\"trait_type\":\"Studio Material\",\"value\":\"Black Fabric\"},{\"value\":\"Birds\"},{\"trait_type\":\"Air Element\",\"value\":\"Flowers\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Budha Top\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Strange Things\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f716",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/26.json",
+                        "token_name": "Galaxy Egg #0026",
+                        "transactionURI": "",
+                        "updated_on": 1673959827697,
+                        "id": "63c69979cd7a32c67d88f716",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f717",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "27",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://ipfs.io/ipfs/QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/27.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0027\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"ipfs://QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/27.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Dark Embryo\"},{\"trait_type\":\"Material\",\"value\":\"Marble Black\"},{\"trait_type\":\"Studio Material\",\"value\":\"Purple Gloss\"},{\"trait_type\":\"Air Element #2\",\"value\":\"Birds\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Cyber City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Alien Ground\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]}",
+                        "owner": "0xb7a0bfb92f4f5afb1a3bd04d7acb6e871547956f",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Dark Embryo\"},{\"trait_type\":\"Material\",\"value\":\"Marble Black\"},{\"trait_type\":\"Studio Material\",\"value\":\"Purple Gloss\"},{\"trait_type\":\"Air Element #2\",\"value\":\"Birds\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Cyber City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Alien Ground\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f717",
+                        "tokenURI": "ipfs://QmWT9wHTNPGX99YtVhbRLWVZYR3wjw9VaSLQoRio9gKvfR/27.json",
+                        "token_name": "Galaxy Egg #0027",
+                        "transactionURI": "",
+                        "updated_on": 1673959829159,
+                        "id": "63c69979cd7a32c67d88f717",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f718",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "28",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/28.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x34a61a92f874404c8fbfd4a10d4f4a02366216b1",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Rebirth\"},{\"trait_type\":\"Material\",\"value\":\"Psychedelia Purple Blue Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Black Mirror\"},{\"trait_type\":\"Air Element\",\"value\":\"3D Saturn\"},{\"value\":\"Branches\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Alien Ground\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f718",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/28.json",
+                        "token_name": "Galaxy Egg #0028",
+                        "transactionURI": "",
+                        "updated_on": 1673959830656,
+                        "id": "63c69979cd7a32c67d88f718",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f719",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "29",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/29.jpg",
+                        "location": "",
+                        "metadata": "{\"name\":\"Galaxy Egg #0029\",\"description\":\"Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.\",\"image\":\"https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/29.jpg\",\"attributes\":[{\"trait_type\":\"Series\",\"value\":\"Cybergirl\"},{\"trait_type\":\"Material\",\"value\":\"Off White\"},{\"trait_type\":\"Studio Material\",\"value\":\"Psychedelia Cold\"},{\"value\":\"Birds\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Cyber City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Candyland\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]}",
+                        "owner": "0x7d757e571bd545008a95cd0c48d2bb164faa72e3",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Cybergirl\"},{\"trait_type\":\"Material\",\"value\":\"Off White\"},{\"trait_type\":\"Studio Material\",\"value\":\"Psychedelia Cold\"},{\"value\":\"Birds\"},{\"trait_type\":\"Egg Overlay\",\"value\":\"Cyber City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Candyland\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f719",
+                        "tokenURI": "https://ipfs.io/ipfs/QmPNBArb39jkFZej8qYKR29EG31N1AyvBEvXmhTqHNpciz/29.json",
+                        "token_name": "Galaxy Egg #0029",
+                        "transactionURI": "",
+                        "updated_on": 1673959832135,
+                        "id": "63c69979cd7a32c67d88f719",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f6fc",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "0",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/0.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x468368369d7f1d596d6496f6d52427e4d7ce0088",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Keytar God\"},{\"trait_type\":\"Material\",\"value\":\"Chrome\"},{\"trait_type\":\"Studio Material\",\"value\":\"Royal Blue\"},{\"trait_type\":\"Sky Element\",\"value\":\"Moon\"},{\"trait_type\":\"Air Element #1\",\"value\":\"Flowers\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Budha Top\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Palm Trees\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f6fc",
+                        "tokenURI": "http://10.128.0.18/ipfs/QmeerBF7STFBetkQ1UtnKzwzfJ967bptHFyL7bG3muUK3w/0.json",
+                        "token_name": "Galaxy Egg #0000",
+                        "transactionURI": "",
+                        "updated_on": 1673959833365,
+                        "id": "63c69979cd7a32c67d88f6fc",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f71a",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "30",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://ipfs.io/ipfs/QmZfGmXqVwAEaEWMnCmMLowjCdN9QJPk79SbXq3gmk1VfL/30.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0x1e8220799ada6f258107c1c6a24a1092aa039bd4",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Swan Lady\"},{\"trait_type\":\"Material\",\"value\":\"Red Gloss\"},{\"trait_type\":\"Studio Material\",\"value\":\"Psychedelia Orange Purple Gloss\"},{\"trait_type\":\"Sky Element\",\"value\":\"Galaxy\"},{\"trait_type\":\"Air Element #1\",\"value\":\"Flowers\"},{\"trait_type\":\"Egg Overlay #1\",\"value\":\"Cyber City\"},{\"trait_type\":\"Ground Element #1\",\"value\":\"Textured Flowers\"},{\"trait_type\":\"Ground Element #2\",\"value\":\"Alien Ground\"},{\"trait_type\":\"Egg Interior\",\"value\":\"Egg Padding\"},{\"trait_type\":\"Egg Type\",\"value\":\"Opened\"}]",
+                        "record_id": "63c69979cd7a32c67d88f71a",
+                        "tokenURI": "ipfs://QmWT9wHTNPGX99YtVhbRLWVZYR3wjw9VaSLQoRio9gKvfR/30.json",
+                        "token_name": "Galaxy Egg #0030",
+                        "transactionURI": "",
+                        "updated_on": 1673959834377,
+                        "id": "63c69979cd7a32c67d88f71a",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1454634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                },
+                {
+                    "_index": "records",
+                    "_id": "63c69979cd7a32c67d88f6fd",
+                    "_score": null,
+                    "_ignored": [
+                        "project_description.keyword"
+                    ],
+                    "_source": {
+                        "token_id": "1",
+                        "contract_address": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "chain_id": 1,
+                        "marketplace": "OpenSea",
+                        "project_description": "(art)ificial is an art studio that explores the boundaries of technology and art. Our first project is Galaxy Eggs - a generative collection of 9,999 Eggs of the metaverse that live on the Ethereum Blockchain. Our Art Director, Gal Barkan, has been creating futuristic and sci-fi art for the past 20 years - this collection is the culmination of a lifetime of work on one hand, and the beginning of a new chapter in taking part in the creation of the metaverse.",
+                        "orgName": "GalaxyEggs",
+                        "priority": 0,
+                        "social": {
+                            "website": "https://www.galaxy-eggs.com/",
+                            "discord": "https://discord.gg/galaxy-eggs",
+                            "twitter": "https://www.twitter.com/galaxy_eggs"
+                        },
+                        "created_on": 1673959801886,
+                        "status": "done",
+                        "client_id": "",
+                        "creator": "0xA08126f5E1ED91A635987071E6FF5EB2aEb67C48",
+                        "description": "Galaxy Eggs by Gal Barkan - a collection of 9,999 eggs of the metaverse.",
+                        "imageURL": "https://galaxy-eggs-images.s3.amazonaws.com/2k/jpg/1.jpg",
+                        "location": "",
+                        "metadata": null,
+                        "owner": "0xc1be5a2c952b70846802c7eba53e3bc284ada22e",
+                        "priceURI": "",
+                        "properties": "[{\"trait_type\":\"Series\",\"value\":\"Dreamscapes\"}]",
+                        "record_id": "63c69979cd7a32c67d88f6fd",
+                        "tokenURI": "https://ipfs.io/ipfs/QmfYJpMttwJQJr8v9r2Xu6hQkvLP2zo9CBRdPgHXCQgeoH/1.json",
+                        "token_name": "Galaxy Egg #0001",
+                        "transactionURI": "",
+                        "updated_on": 1673959834935,
+                        "id": "63c69979cd7a32c67d88f6fd",
+                        "market_cap": {
+                            "native_currency": 878.82,
+                            "usd": 1554634
+                        },
+                        "project_image": {
+                            "small": "https://assets.coingecko.com/nft_contracts/images/145/small/GLXY.jpg?1631673228"
+                        }
+                    },
+                    "sort": [
+                        0,
+                        1673959801886
+                    ]
+                }
+            ]
+        }
+    }
+}
